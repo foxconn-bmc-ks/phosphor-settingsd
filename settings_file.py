@@ -12,7 +12,7 @@ SETTINGS=\
                        'name': 'power_cap',
                        'type': 'i',
                        'unit': 'watts'},
-          'powerpolicy': {'default': 'RESTORE_LAST_STATE',
+          'powerpolicy': {'default': 'ALWAYS_POWER_ON',
                           'name': 'power_policy',
                           'type': 's'},
           'restrictedmode': {'default': False,

@@ -19,7 +19,7 @@ host:
     powerpolicy:
         name: power_policy
         type: s
-        default: "RESTORE_LAST_STATE"
+        default: "ALWAYS_POWER_ON"
     restrictedmode:
         name: restricted_mode
         type: b
