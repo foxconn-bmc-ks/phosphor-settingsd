@@ -55,7 +55,7 @@ org.openbmc.settings.Host:
         TimeOwner:
             name: time_owner
             type: s
-            default: "SPLIT"
+            default: "BMC"
             validation: list
             allowed: ["BMC", "HOST", "SPLIT", "BOTH"]
         UseDhcpNtp:
